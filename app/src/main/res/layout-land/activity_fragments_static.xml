@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:weightSum="2"
+    tools:context="com.simbiosyscorp.tutorials.fragments.FragmentsStatic">
+
+
+    <fragment
+        android:id="@+id/fragment1"
+        android:name="com.simbiosyscorp.tutorials.fragments.Fargment1"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView2"
+        tools:layout="@layout/fragment_fargment1" />
+
+    <fragment
+        android:id="@+id/fragment2"
+        android:name="com.simbiosyscorp.tutorials.fragments.Fragment2"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        tools:layout="@layout/fragment_fragment2" />
+
+</LinearLayout>
+

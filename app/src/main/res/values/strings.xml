@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Fragments</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="display">This app shows the use of Fragments statically and dynamically</string>
+    <string name="title_activity_fragments_static">FragmentsStatic</string>
+    <string name="title_activity_fragments_dynamic">FragmentsDynamic</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="fragment2">Second Fragment</string>
+    <string name="fragment1">First Fragment</string>
+    <string name="display2">Change Orientation to \'Landscape\' mode, to see statically added Second Fragment.</string>
+    <string name="display3">Click the button to replace Fragment dynamically</string>
+</resources>
